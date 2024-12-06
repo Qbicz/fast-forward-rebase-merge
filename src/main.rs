@@ -7,7 +7,6 @@ use tch::{nn, nn::Module, Tensor};
 
 // Weights and config:
 // https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-spp.cfg
-//
 
 fn load_yolo_model() -> Result<Module, Box<dyn Error>> {
     // Load the pre-trained YOLO model
