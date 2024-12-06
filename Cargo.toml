@@ -1,0 +1,11 @@
+[package]
+name = "human_detection"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tch = "0.13.0"
+opencv = "0.40.0"
+
+[dev-dependencies]
+rstest = "0.18.1"
