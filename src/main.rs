@@ -53,7 +53,7 @@ fn initialize() -> Result<(highgui::VideoCapture, Module), Box<dyn Error>> {
     // Open the default camera (index 0)
     let mut cap = highgui::VideoCapture::new(0)?;
     if !cap.is_opened()? {
-        panic!("Failed to open the camera");
+        panic!("Failed to open the camera 0");
     }
 
     Ok((cap, model))
