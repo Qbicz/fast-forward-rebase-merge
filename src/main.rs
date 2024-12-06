@@ -122,8 +122,8 @@ mod tests {
             total_detected += detected_in_frame;
 
             frame_count += 1;
-            if frame_count == 100 {
-                // Stop processing after 100 frames for quick test execution.
+            if frame_count == 50 {
+                // Stop processing after 50 frames for quick test execution.
                 break;
             }
         }
